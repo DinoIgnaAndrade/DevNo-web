@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(6, 63, 90, 0.446);
+    backdrop-filter: blur(8px);
+}
+
+.socials {
+    display: flex;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.socials a {
+    margin: 0 15px;
+    color: #ffffff;
+    font-size: 24px;
+    transition: 0.5s;
+}
+.socials a:hover{
+    color: rgb(7, 149, 220);
+    transition: 0.3s;
+}
+
+.imageLogo {
+    height: 60px;
+    width: 60px;
+    border-radius: 300px;
+    transition: 0.5s;
+}
+.imageLogo:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.copyright {
+    padding: 0 30px;
+}

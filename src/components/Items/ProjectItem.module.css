@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    justify-content: center;
+
+    background-color: rgba(6, 63, 90, 0.446);
+    transition: 0.5s;
+
+  }
+.container:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+  
+  .projectImage {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .projectDetails {
+    flex: 1;
+    text-align: center;
+  }
+  .projectDetails h3{
+    padding: 10px;
+  }
+  .projectDetails p{
+    padding: 10px;
+    width: 50vh;
+  }
+
+  .iconContainer {
+    display:inline-flex;
+    flex-direction: row;
+    border-radius: 30px;
+    padding: 15px;
+    gap: 8px;
+    justify-content: center;
+
+    background-color: rgba(6, 63, 90, 0.446);
+    transition: 0.5s;
+  }
+  .iconContainer:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+
+  .icon{
+    position:relative;
+    font-size: 40px;
+
+    color:rgb(182, 182, 182);
+
+    transition: 0.5s;
+  }
+  .icon:hover{
+    transition: 0.3s;
+    transform: scale(1.5);
+
+    color: aliceblue;
+  }
