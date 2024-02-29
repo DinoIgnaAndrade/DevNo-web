@@ -18,7 +18,7 @@ const Portfolio: React.FC = () => {
     const plantillaEcommerceIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux, TbBrandFirebase];
     const elAyudanteIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify, TbBrandFramerMotion];
     const symphonyIcons = [TbBrandTypescript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux];
-    const miniProjectos =[FaJava,FaPython,SiMysql]
+    const miniProjectosIcons =[FaJava,FaPython,SiMysql]
 
     return (
         <div className={styles.container}>
@@ -55,8 +55,8 @@ const Portfolio: React.FC = () => {
             <ProjectItem
                 title='Mini Projectos'
                 description='RRecopilacion de tanto pequeños trabajos de aprendisaje como primeros projectos de base de datos y trabajo con logica simple en Java, Pytho y mySQL' 
-                image={elAyudante}
-                icons={miniProjectos}
+                image={miniProjectos}
+                icons={miniProjectosIcons}
                 projectLink='https://github.com/DinoIgnaAndrade/MiniProjectos'
             />
         </div>
