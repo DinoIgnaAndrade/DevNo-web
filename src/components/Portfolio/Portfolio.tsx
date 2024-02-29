@@ -8,14 +8,14 @@ import eCommerce from '../../img/PlatillaECommerce.jpg'
 import elAyudante from '../../img/elAyundante.jpeg'
 
 import { FaReact } from "react-icons/fa6";
-import { TbBrandNextjs, TbBrandTypescript, TbBrandJavascript, TbBrandNodejs, TbBrandReactNative, TbBrandRedux, TbBrandFirebase } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandTypescript, TbBrandJavascript, TbBrandNodejs, TbBrandReactNative, TbBrandRedux, TbBrandFirebase,TbBrandFramerMotion } from "react-icons/tb";
 import { SiExpo } from "react-icons/si";
 import { BiLogoNetlify } from "react-icons/bi";
 
 const Portfolio: React.FC = () => {
     const devnowebIcons = [TbBrandTypescript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify];
     const plantillaEcommerceIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux, TbBrandFirebase];
-    const elAyudanteIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify];
+    const elAyudanteIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify,TbBrandFramerMotion];
     const symphonyIcons = [TbBrandTypescript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux];
 
     return (
@@ -41,14 +41,14 @@ const Portfolio: React.FC = () => {
                 description='Pagina Web para un sercvicio de refrigeracion de Lomas de Zamora'
                 image={elAyudante}
                 icons={elAyudanteIcons}
-                projectLink=''
+                projectLink='https://elayundaterefrigeracion.netlify.app/'
             />
             <ProjectItem
-                title='Symphony(En producción)'
+                title='BenTen(En producción)'
                 description='Reproductor de musica echo en Expo, hecho mas que nada para practicas de React Native Reanimated'
                 image={elAyudante}
                 icons={symphonyIcons}
-                projectLink=''
+                projectLink='https://github.com/DinoIgnaAndrade/BenTen.git'
             />
         </div>
     )
