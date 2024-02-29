@@ -6,7 +6,7 @@ import ProjectItem from '../Items/ProjectItem'
 import logoWeb from '../../img/logo.jpg'
 import eCommerce from '../../img/PlatillaECommerce.jpg'
 import elAyudante from '../../img/elAyundante.jpeg'
-import miniProjectos from '../../img/miniProjectos.jpg'	
+import miniProjectos from '../../img/miniprojectos.jpg'	
 
 import { FaReact, FaJava, FaPython  } from "react-icons/fa6";
 import { TbBrandNextjs, TbBrandTypescript, TbBrandJavascript, TbBrandNodejs, TbBrandReactNative, TbBrandRedux, TbBrandFirebase, TbBrandFramerMotion } from "react-icons/tb";
