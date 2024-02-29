@@ -6,17 +6,19 @@ import ProjectItem from '../Items/ProjectItem'
 import logoWeb from '../../img/logo.jpg'
 import eCommerce from '../../img/PlatillaECommerce.jpg'
 import elAyudante from '../../img/elAyundante.jpeg'
+import miniProjectos from '../../img/miniProjectos.jpg'	
 
-import { FaReact } from "react-icons/fa6";
-import { TbBrandNextjs, TbBrandTypescript, TbBrandJavascript, TbBrandNodejs, TbBrandReactNative, TbBrandRedux, TbBrandFirebase,TbBrandFramerMotion } from "react-icons/tb";
-import { SiExpo } from "react-icons/si";
+import { FaReact, FaJava, FaPython  } from "react-icons/fa6";
+import { TbBrandNextjs, TbBrandTypescript, TbBrandJavascript, TbBrandNodejs, TbBrandReactNative, TbBrandRedux, TbBrandFirebase, TbBrandFramerMotion } from "react-icons/tb";
+import { SiExpo, SiMysql } from "react-icons/si";
 import { BiLogoNetlify } from "react-icons/bi";
 
 const Portfolio: React.FC = () => {
     const devnowebIcons = [TbBrandTypescript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify];
     const plantillaEcommerceIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux, TbBrandFirebase];
-    const elAyudanteIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify,TbBrandFramerMotion];
+    const elAyudanteIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify, TbBrandFramerMotion];
     const symphonyIcons = [TbBrandTypescript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux];
+    const miniProjectos =[FaJava,FaPython,SiMysql]
 
     return (
         <div className={styles.container}>
@@ -49,6 +51,13 @@ const Portfolio: React.FC = () => {
                 image={elAyudante}
                 icons={symphonyIcons}
                 projectLink='https://github.com/DinoIgnaAndrade/BenTen.git'
+            />
+            <ProjectItem
+                title='Mini Projectos'
+                description='RRecopilacion de tanto pequeños trabajos de aprendisaje como primeros projectos de base de datos y trabajo con logica simple en Java, Pytho y mySQL' 
+                image={elAyudante}
+                icons={miniProjectos}
+                projectLink='https://github.com/DinoIgnaAndrade/MiniProjectos'
             />
         </div>
     )
