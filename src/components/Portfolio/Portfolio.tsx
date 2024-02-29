@@ -55,7 +55,7 @@ const Portfolio: React.FC = () => {
             />
             <ProjectItem
                 title='Mini Projectos'
-                description='RRecopilacion de tanto pequeños trabajos de aprendisaje como primeros projectos de base de datos y trabajo con logica simple en Java, Pytho y mySQL' 
+                description='Recopilación de tanto pequeños trabajos de aprendisaje como primeros projectos de base de datos y trabajo con logica simple en Java, Pytho y mySQL' 
                 image={miniProjectos}
                 icons={miniProjectosIcons}
                 projectLink='https://github.com/DinoIgnaAndrade/MiniProjectos'
