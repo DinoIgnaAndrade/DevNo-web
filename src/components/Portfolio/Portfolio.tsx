@@ -6,6 +6,7 @@ import ProjectItem from '../Items/ProjectItem'
 import logoWeb from '../../img/logo.jpg'
 import eCommerce from '../../img/PlatillaECommerce.jpg'
 import elAyudante from '../../img/elAyundante.jpeg'
+import benTenImage from '../../img/BenTen.jpeg'
 import miniProjectos from '../../img/miniprojectos.jpg'	
 
 import { FaReact, FaJava, FaPython  } from "react-icons/fa6";
@@ -17,7 +18,7 @@ const Portfolio: React.FC = () => {
     const devnowebIcons = [TbBrandTypescript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify];
     const plantillaEcommerceIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux, TbBrandFirebase];
     const elAyudanteIcons = [TbBrandJavascript, TbBrandNodejs, FaReact, TbBrandNextjs, BiLogoNetlify, TbBrandFramerMotion];
-    const symphonyIcons = [TbBrandTypescript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux];
+    const bentenIcons = [TbBrandTypescript, TbBrandNodejs, FaReact, SiExpo, TbBrandReactNative, TbBrandRedux];
     const miniProjectosIcons =[FaJava,FaPython,SiMysql]
 
     return (
@@ -48,8 +49,8 @@ const Portfolio: React.FC = () => {
             <ProjectItem
                 title='BenTen(En producción)'
                 description='Reproductor de musica echo en Expo, hecho mas que nada para practicas de React Native Reanimated'
-                image={elAyudante}
-                icons={symphonyIcons}
+                image={benTenImage}
+                icons={bentenIcons}
                 projectLink='https://github.com/DinoIgnaAndrade/BenTen.git'
             />
             <ProjectItem
