@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                     <a href='https://github.com/DinoIgnaAndrade'>
                         <FaGithub />
                     </a>
-                    <a href='/'>
+                    <a href='www.linkedin.com/in/dino-ignacio-andrade-6326342b8'>
                         <FaLinkedin />
                     </a>
                     <a href='https://wa.me/+5491131917494'>
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
                     alt='' />
 
                 <div className={styles.copyright}>
-                    Copyright © 2023 DevNo
+                    2023 DevNo
                 </div>
 
             </footer>
