@@ -30,7 +30,7 @@ const NavBar: React.FC = () => {
           <li className={styles.link}><Link href="/About">About</Link></li>
         </ul>
 
-        <button className={styles.btn}>Know me</button>
+        <button className={styles.btn}>Curriculum</button>
 
       </nav>
   );
