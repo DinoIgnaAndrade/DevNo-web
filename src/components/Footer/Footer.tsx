@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                     <a href='https://github.com/DinoIgnaAndrade'>
                         <FaGithub />
                     </a>
-                    <a href='www.linkedin.com/in/dino-ignacio-andrade-6326342b8'>
+                    <a href='https://www.linkedin.com/in/dino-ignacio-andrade-6326342b8/'>
                         <FaLinkedin />
                     </a>
                     <a href='https://wa.me/+5491131917494'>
