@@ -19,7 +19,7 @@ const Header:React.FC = () => {
               habilidades. Esto lo escribio una IA, se programar no hablar.
             </p>
 
-            <button className={styles.btn}>let s go</button>
+            <button className={styles.btn}>Curriculum</button>
           </div>
 
           <Weather />
