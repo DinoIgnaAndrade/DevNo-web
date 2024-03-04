@@ -14,9 +14,9 @@ const Header:React.FC = () => {
             <h1>Hola soy Dino, Web y Aplication developer</h1>
 
             <p className={styles.paragraph}>
-              Soy un apasionado desarrollador JR novato en el mundo de la creación de sitios web y aplicaciones.
-              A pesar de ser nuevo en este campo, he estado dedicando tiempo y esfuerzo para aprender y crecer en mis
-              habilidades. Esto lo escribio una IA, se programar no hablar.
+              Soy un apasionado desarrollador novato en el mundo de la creación de sitios web y aplicaciones.
+              A pesar de ser nuevo en este campo, he estado dedicando tiempo y esfuerzo para aprender; y crecer en mis
+              habilidades.
             </p>
 
           </div>
