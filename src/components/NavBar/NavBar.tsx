@@ -1,16 +1,13 @@
 // NavBar.tsx
+'use client'
 import Image from 'next/image';
 import Link from 'next/link';
 
+import cv from './Curriculum.pdf'
 import logo from '../../img/logo.jpg';
 import styles from "./NavBar.module.css";
 
 const NavBar: React.FC = () => {
-
-  const descargarPDF = () => {
-    const url = "../../img/Curriculum.pdf";
-    window.open(url, "_blank");
-  };
 
   return (
     <nav className={styles.container}>
@@ -35,7 +32,7 @@ const NavBar: React.FC = () => {
         <li className={styles.link}><Link href="/About">About</Link></li>
       </ul>
 
-      <button className={styles.btn} onProgress={descargarPDF}>Curriculum</button>
+      <a className={styles.btn} href={cv} download={true} >Curriculum</a>
 
     </nav>
   );
