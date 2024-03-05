@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import cv from './Curriculum.pdf'
 import logo from '../../img/logo.jpg';
 import styles from "./NavBar.module.css";
 
@@ -32,7 +31,7 @@ const NavBar: React.FC = () => {
         <li className={styles.link}><Link href="/About">About</Link></li>
       </ul>
 
-      <a className={styles.btn} href={cv} download={true} >Curriculum</a>
+      <a className={styles.btn} href='./Curriculum.pdf' download={true} >Curriculum</a>
 
     </nav>
   );
