@@ -31,8 +31,6 @@ const NavBar: React.FC = () => {
         <li className={styles.link}><Link href="/About">About</Link></li>
       </ul>
 
-      <a className={styles.btn}>Curriculum</a>
-
     </nav>
   );
 };
