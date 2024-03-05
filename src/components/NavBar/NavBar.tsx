@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import logo from '../../img/logo.jpg';
+import logo from '../../asset/logo.jpg';
 import styles from "./NavBar.module.css";
 
 const NavBar: React.FC = () => {
@@ -31,7 +31,7 @@ const NavBar: React.FC = () => {
         <li className={styles.link}><Link href="/About">About</Link></li>
       </ul>
 
-      <a className={styles.btn} href='./Curriculum.pdf' download={true} >Curriculum</a>
+      <a className={styles.btn}>Curriculum</a>
 
     </nav>
   );

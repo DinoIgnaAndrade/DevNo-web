@@ -3,11 +3,11 @@ import React from 'react'
 import styles from './Portfolio.module.css'
 import ProjectItem from '../Items/ProjectItem'
 
-import logoWeb from '../../img/logo.jpg'
-import eCommerce from '../../img/PlatillaECommerce.jpg'
-import elAyudante from '../../img/elAyundante.jpeg'
-import benTenImage from '../../img/BenTen.jpeg'
-import miniProjectos from '../../img/miniprojectos.jpg'
+import logoWeb from '../../asset/logo.jpg'
+import eCommerce from '../../asset/PlatillaECommerce.jpg'
+import elAyudante from '../../asset/elAyundante.jpeg'
+import benTenImage from '../../asset/BenTen.jpeg'
+import miniProjectos from '../../asset/miniprojectos.jpg'
 
 import { FaReact, FaJava, FaPython } from "react-icons/fa6";
 import { TbBrandNextjs, TbBrandTypescript, TbBrandJavascript, TbBrandNodejs, TbBrandReactNative, TbBrandRedux, TbBrandFirebase, TbBrandFramerMotion } from "react-icons/tb";
