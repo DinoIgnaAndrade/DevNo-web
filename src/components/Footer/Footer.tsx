@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
                     alt='' />
 
                 <div className={styles.copyright}>
-                    2023 DevNo
+                    2024 DevNo
                 </div>
 
             </footer>

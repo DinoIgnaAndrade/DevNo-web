@@ -31,7 +31,7 @@ const NavBar: React.FC = () => {
         <li className={styles.link}><Link href="/About">About</Link></li>
       </ul>
 
-      <Link className={styles.btn} href="https://drive.google.com/file/d/1xOC8P_2R_6QErcGFDnjJ5IcLRaIvqHXD/view?usp=drive_link">
+      <Link className={styles.btn} href="https://drive.google.com/file/d/1ceY_lonOQT2wV5tcU-gWq3tFkjGNakgF/view?usp=drive_link">
         C_Vitae
         </Link>
 

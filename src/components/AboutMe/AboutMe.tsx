@@ -39,7 +39,6 @@ const AboutMe: React.FC = () => {
                         <TbBrandNextjs className={styles.iconTechs}/>
                         <TbBrandReactNative className={styles.iconTechs}/>
                         <SiExpo className={styles.iconTechs}/>
-                        <TbBrandRedux className={styles.iconTechs}/>
                     </div>
                 </div>
             </div>
