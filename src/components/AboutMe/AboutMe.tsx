@@ -15,8 +15,8 @@ const AboutMe: React.FC = () => {
 
             <div className={styles.presentation}>
                 <h1 className={styles.title}>Dino Ignacio Andrade</h1>
-                <p className={styles.paragraph}>Dentro de la fantasía, soy un DESARROLLADOR FULL STACK en su máxima expresión. 
-                En la realidad, soy un desarrollador JR de frontend con comprensión del backend. Además, tengo la capacidad de desarrollar 
+                <p className={styles.paragraph}>
+                Soy un desarrollador JR de frontend con comprensión del backend. Además, tengo la capacidad de desarrollar 
                 aplicaciones para Android e iOS. He estado estudiando y programando durante un tiempo. Este ha sido mi camino:
                 </p>
 
