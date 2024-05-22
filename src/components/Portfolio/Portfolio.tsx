@@ -24,7 +24,7 @@ const Portfolio: React.FC = () => {
     return (
         <div className={styles.container}>
             <ProjectItem
-                title='BenTen(En producción)'
+                title='BenTen'
                 description="Reproductor de música hecho en Expo, creado principalmente para prácticas con React Native Reanimated."
                 image={benTenImage}
                 icons={bentenIcons}
