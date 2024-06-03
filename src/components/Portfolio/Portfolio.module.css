@@ -1,29 +1,45 @@
 .container {
     display: flex;
-    margin: 10px;
     flex-wrap: wrap;
     justify-content: space-around;
-    overflow-y: scroll;
     backdrop-filter: blur(2px);
     border-radius: 40px;
     padding-bottom: 70px;
-
-    height: 85%;
   }
 
-  .container::-webkit-scrollbar {
-    width: 8px;
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .container {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border-radius: 20px;
+      width: 30%;
   }
-  
-  .container::-webkit-scrollbar-track {
-    background: #f1f1f100;
+
+  .title {
+      font-size: 25px;
+      margin-top: 15px;
+      margin-bottom: 15px;
   }
-  
-  .container::-webkit-scrollbar-thumb {
-    background: rgba(6, 63, 90, 0.446);
-    border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+  .container {
+      padding: 10px;
+      border-radius: 10px;
   }
-  
-  .container::-webkit-scrollbar-thumb:hover {
-    background: rgba(57, 143, 182, 0.446);
+
+  .title {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
   }
+}

@@ -22,7 +22,10 @@ const Portfolio: React.FC = () => {
     const miniProjectosIcons = [FaJava, FaPython, SiMysql]
 
     return (
-        <div className={styles.container}>
+        <>
+         <h1 className={styles.title}>Projectos</h1>
+        <div className={styles.container} id='projects'>
+
             <ProjectItem
                 title='BenTen'
                 description="Reproductor de música hecho en Expo, creado principalmente para prácticas con React Native Reanimated."
@@ -63,6 +66,9 @@ const Portfolio: React.FC = () => {
                 projectLink='https://github.com/DinoIgnaAndrade/MiniProjectos'
             />
         </div>
+        </>
+
+        
     )
 }
 

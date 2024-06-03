@@ -1,66 +1,123 @@
 .container {
-    display: flex;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 30px;
-    justify-content: center;
+  display: flex;
+  height: 80%;
 
-    background-color: rgba(6, 63, 90, 0.446);
-    transition: 0.5s;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
 
-  }
-.container:hover{
-    transition: 0.3s;
-    transform: scale(1.1);
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(6, 63, 90, 0.446);
+  transition: 0.5s;
 }
-  
+
+.container:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.projectImage {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.projectDetails {
+  flex: 1;
+  text-align: center;
+}
+
+.projectDetails h3 {
+  padding: 10px;
+}
+
+.projectDetails p {
+  padding: 10px;
+  width: 50vh;
+}
+
+.iconContainer {
+  display: inline-flex;
+  flex-direction: row;
+  border-radius: 30px;
+  padding: 15px;
+  gap: 8px;
+  justify-content: center;
+
+  background-color: rgba(6, 63, 90, 0.446);
+  transition: 0.5s;
+}
+
+.iconContainer:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.icon {
+  position: relative;
+  font-size: 40px;
+
+  color: rgb(182, 182, 182);
+
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transition: 0.3s;
+  transform: scale(1.5);
+
+  color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: 60%;
+    padding: 10px;
+    margin: 10px;
+  }
+
   .projectImage {
-    border-radius: 100px;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-right: 0;
   }
-  
-  .projectDetails {
-    flex: 1;
-    text-align: center;
-  }
-  .projectDetails h3{
-    padding: 10px;
-  }
-  .projectDetails p{
-    padding: 10px;
-    width: 50vh;
+
+  .projectDetails p {
+    width: 55vh;
+    padding: 5px;
   }
 
   .iconContainer {
-    display:inline-flex;
     flex-direction: row;
-    border-radius: 30px;
-    padding: 15px;
-    gap: 8px;
-    justify-content: center;
-
-    background-color: rgba(6, 63, 90, 0.446);
-    transition: 0.5s;
-  }
-  .iconContainer:hover{
-    transition: 0.3s;
-    transform: scale(1.1);
+    padding: 10px;
+    gap: 4px;
   }
 
-  .icon{
-    position:relative;
-    font-size: 40px;
-
-    color:rgb(182, 182, 182);
-
-    transition: 0.5s;
+  .icon {
+    font-size: 30px;
   }
-  .icon:hover{
-    transition: 0.3s;
-    transform: scale(1.5);
+}
 
-    color: aliceblue;
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+    margin: 5px;
   }
+
+  .projectImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .projectDetails h3 {
+    padding: 5px;
+    font-size: 18px;
+
+  }
+}

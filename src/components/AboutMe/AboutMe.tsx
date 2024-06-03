@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { TbBrandTypescript,TbBrandReactNative,TbBrandNextjs,TbBrandRedux  } from "react-icons/tb";
+import { TbBrandTypescript, TbBrandReactNative, TbBrandNextjs, TbBrandRedux } from "react-icons/tb";
 import { FaReact } from "react-icons/fa6";
 
 import { SiExpo } from "react-icons/si";
@@ -11,41 +11,42 @@ import TechMap from '../TechMap/TechMap'
 
 const AboutMe: React.FC = () => {
     return (
-        <div className={styles.container}>
+        <>
+            <h1 className={styles.title}>Sobre Mi</h1>
 
-            <div className={styles.presentation}>
-                <h1 className={styles.title}>Dino Ignacio Andrade</h1>
-                <p className={styles.paragraph}>
-                Soy un desarrollador de frontend con comprensión del backend. Además, tengo la capacidad de desarrollar 
-                aplicaciones para Android e iOS. He estado estudiando y programando durante un tiempo. Este ha sido mi camino:
-                </p>
+            <div className={styles.container} id='about'>
+                <div className={styles.presentation}>
+                    <h1 className={styles.title}>Dino Ignacio Andrade</h1>
+                    <p className={styles.paragraph}>
+                        Soy un desarrollador de frontend con comprensión del backend. Además, tengo la capacidad de desarrollar
+                        aplicaciones para Android e iOS. He estado estudiando y programando durante un tiempo. Este ha sido mi camino:
+                    </p>
 
-                <TechMap />
-            </div>
+                    <TechMap />
+                </div>
 
-            <div>
-                <Image
-                    className={styles.image}
-                    src={me}
-                    alt='avatar'
-                    width={3455}
-                    height={2847}
-                />
-                <div className={styles.myTechs}>
-                    <h4>Mis Tecnologías Actuales</h4>
-                    <div>
-                        <TbBrandTypescript className={styles.iconTechs}/>
-                        <FaReact className={styles.iconTechs}/>
-                        <TbBrandNextjs className={styles.iconTechs}/>
-                        <TbBrandReactNative className={styles.iconTechs}/>
-                        <SiExpo className={styles.iconTechs}/>
+                <div>
+                    <Image
+                        className={styles.image}
+                        src={me}
+                        alt='avatar'
+                        width={3455}
+                        height={2847}
+                    />
+                    <div className={styles.myTechs}>
+                        <h4>Mis Tecnologías Actuales</h4>
+                        <div>
+                            <TbBrandTypescript className={styles.iconTechs} />
+                            <FaReact className={styles.iconTechs} />
+                            <TbBrandNextjs className={styles.iconTechs} />
+                            <TbBrandReactNative className={styles.iconTechs} />
+                            <SiExpo className={styles.iconTechs} />
+                        </div>
                     </div>
                 </div>
             </div>
+        </>
 
-
-
-        </div>
     )
 }
 

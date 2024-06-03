@@ -26,13 +26,12 @@ const NavBar: React.FC = () => {
       </Link>
 
       <ul className={styles.navLinks}>
-        <li className={styles.link}><Link href="/">Home</Link></li>
-        <li className={styles.link}><Link href="/Projects">Proyects</Link></li>
-        <li className={styles.link}><Link href="/About">About</Link></li>
+        <li className={styles.link}><Link href="#projects">Projectos</Link></li>
+        <li className={styles.link}><Link href="#about">Acerca de mi</Link></li>
       </ul>
 
       <Link className={styles.btn} href="https://drive.google.com/file/d/1RcyE1_2LbHrezKrAv9YEAJRrhtnJJnAo/view?usp=drive_link">
-        C_Vitae
+        CVitae
         </Link>
 
     </nav>

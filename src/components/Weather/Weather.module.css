@@ -151,3 +151,78 @@
     padding: 3px;
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 1rem;
+      margin: 5px;
+    }
+  
+    .leftContainer, .rightContainer {
+      width: 100%;
+      height: auto;
+    }
+  
+    .leftContainer {
+      margin: 10px 0;
+    }
+  
+    .dayInfo, .info, .daysList {
+      width: 100%;
+    }
+  
+    .dayInfo {
+      padding: 10px;
+    }
+  
+    .info {
+      padding: 5px;
+    }
+  
+    .days {
+      padding: 5px;
+      font-size: 14px;
+    }
+  
+    .icon {
+      font-size: 30px;
+    }
+  
+    .todayWeather {
+      margin-top: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 0.5rem;
+      margin: 5px;
+    }
+  
+    .leftContainer, .rightContainer {
+      padding: 1rem;
+    }
+  
+    .dayInfo, .info, .daysList {
+      gap: 5px;
+      padding: 8px;
+    }
+  
+    .days {
+      padding: 3px;
+      font-size: 12px;
+    }
+  
+    .day {
+      font-size: 16px;
+    }
+  
+    .icon {
+      font-size: 25px;
+    }
+  
+    .todayWeather {
+      margin-top: 30px;
+    }
+  }
