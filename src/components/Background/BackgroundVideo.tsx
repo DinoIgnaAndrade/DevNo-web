@@ -7,7 +7,7 @@ type Props = {}
 const BackgroundVideo = (props: Props) => {
   return (
     <div className={styles.videoBackground}>
-      <video src={require('../../asset/video/waves.mp4')} autoPlay muted loop className={styles.video} />
+      <video src={require('../../../public/waves.mp4')} autoPlay muted loop className={styles.video} />
     </div>
   )
 }
