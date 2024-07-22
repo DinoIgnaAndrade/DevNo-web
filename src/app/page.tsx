@@ -22,8 +22,7 @@ const cards: React.ReactNode[] = [
 const Home: React.FC = () => {
   return (
     <main className={styles.container}>
-      
-      <BackgroundVideo />
+      {/* <BackgroundVideo /> */}
       <NavBar />
       <Carousel pages={cards} />
       <AboutMe />
