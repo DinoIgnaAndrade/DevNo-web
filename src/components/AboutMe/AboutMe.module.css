@@ -1,0 +1,167 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    gap: 1.2rem;
+
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.presentation h1 {
+    color: black;
+    animation: pulse 5s infinite;
+}
+@keyframes pulse {
+    0% {
+        color: black;
+    }
+    50% {
+        color: #0e95ba;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.presentation h2 {
+    color: black;
+    animation: pulse 8s infinite;
+}
+@keyframes pulse {
+    0% {
+        color: black;
+    }
+    50% {
+        color: #0e95ba;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.presentation h2:hover {
+    color: #0e95ba;
+    transition: color 1s;
+}
+
+.presentation p {
+    color:black;
+    font-size: 1rem;
+    word-wrap: break-word; 
+    max-width: 100%;
+}
+
+.imageContainer {
+    flex-direction: column;
+    margin: 30px;
+}
+
+.image {
+    border-radius: 50px;
+    width: 400px;
+    height: auto;
+}
+
+.myTechs {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+.iconTechs {
+    margin-inline-end: 10px;
+    font-size: 30px;
+    transition: transform 0.6s;
+    animation: pulse 5s infinite;
+}
+.iconTechs:hover {
+    animation: none;
+    transform: scale(1.4);
+    color:#0e95ba;
+    transition: transform 0.8s;
+}
+@keyframes pulse {
+    0% {
+        color: black;
+    }
+    50% {
+        color: #0e95ba;
+    }
+    100% {
+        color: black;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        border-radius: 20px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .presentation {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .image {
+        width: 300px;
+    }
+
+    .myTechs {
+        font-size: 18px;
+    }
+
+    .iconTechs {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 3px;
+        margin: 3px;
+    }
+
+    .presentation {
+        margin: 3px;
+        padding: 3px;
+    }
+
+    .image {
+        width: 200px;
+    }
+
+    .myTechs {
+        font-size: 16px;
+    }
+
+    .iconTechs {
+        font-size: 20px;
+    }
+}
