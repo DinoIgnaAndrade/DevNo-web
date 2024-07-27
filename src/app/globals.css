@@ -87,13 +87,13 @@ body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url(../asset/background.jpg) no-repeat center center fixed;
+  background: url(../media/background.jpg) no-repeat center center fixed;
   background-size: cover;
-}
+} */
 
 
 a {

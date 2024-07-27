@@ -22,12 +22,19 @@ const cards: React.ReactNode[] = [
 const Home: React.FC = () => {
   return (
     <main className={styles.container}>
-      {/* <BackgroundVideo /> */}
       <NavBar />
       <Carousel pages={cards} />
       <AboutMe />
       <Portfolio />
       <Footer />
+
+      <video
+        src={require('../media/backgroundVideo.mp4')}
+        autoPlay
+        muted
+        loop
+        className={styles.video} />
+
     </main>
   );
 };

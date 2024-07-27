@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import logo from '../../asset/logo.jpg';
+import logo from '../../media/logo.jpg';
 import styles from "./NavBar.module.css";
 
 const NavBar: React.FC = () => {

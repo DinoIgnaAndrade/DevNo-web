@@ -5,7 +5,7 @@ import { FaReact } from "react-icons/fa6";
 
 import { SiExpo } from "react-icons/si";
 
-import me from '../../asset/me.jpg'
+import me from '../../media/me.jpg'
 import styles from './AboutMe.module.css'
 import TechMap from '../TechMap/TechMap'
 

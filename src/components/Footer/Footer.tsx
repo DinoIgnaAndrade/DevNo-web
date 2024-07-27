@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 
 import styles from './Footer.module.css'
-import logo from '../../asset/logo.jpg';
+import logo from '../../media/logo.jpg';
 
 
 const Footer: React.FC = () => {
