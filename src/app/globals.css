@@ -108,12 +108,12 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 8px; 
-  height: 12px; 
+  width: 4px; 
+  height: 8px; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(6, 63, 90, 0.446); 
+  background: rgb(255, 255, 255);
   border-radius: 6px; 
 }
 
