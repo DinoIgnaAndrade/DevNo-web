@@ -61,7 +61,7 @@ const Portfolio: React.FC = () => {
                     description="Página web para un servicio de refrigeración en Lomas de Zamora."
                     image={elAyudante}
                     icons={elAyudanteIcons}
-                    projectLink='https://elayundaterefrigeracion.netlify.app/'
+                    projectLink='https://elayudante.netlify.app/'
                 />
                 <ProjectItem
                     title='Mini Projectos'

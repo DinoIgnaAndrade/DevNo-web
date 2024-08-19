@@ -5,8 +5,6 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa6';
 
 const Header: React.FC = () => {
 
-
-
   return (
     <header className={styles.container}>
 
